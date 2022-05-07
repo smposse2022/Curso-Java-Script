@@ -1,0 +1,37 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/*Nav */
+.navbar-light {
+  box-shadow: 0 0 4px 0 #0e0d0d;
+}
+.nav-item {
+  margin: 0 2rem 0 2rem;
+}
+/*Main */
+.hero {
+  background-image: url(../img/PizzayCerveza.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  background-attachment: fixed;
+  height: 70vh;
+  overflow: hidden;
+}
+.hero__content {
+  color: white;
+  flex-direction: row;
+}
+.hero__text {
+  font-size: bold;
+}
+.hero__content img {
+  height: auto;
+}
+.banner {
+  background-color: red;
+}
+.banner__image {
+  height: 15rem;
+  width: 15rem;
+}

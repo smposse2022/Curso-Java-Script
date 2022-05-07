@@ -19,6 +19,53 @@ if (haceFrio) {
 } else {
   console.log("No me pongo el buzo");
 }
+if --si
+else if --sino si
+else --sino
+&& --y/and (Se tienen que cumplir todas las condiciones para que el resultado sea verdadero)
+|| --o/or (Devuelve verdadero, cuando al menos una de las condiciones sea verdadera)
+= --Asignación (Darle un valor a una variable/constante)
+== --Es igual a(Lo usamos para comparar)
+=== --Estrictamente igual (Lo usamos para comparar valor y tipo de dato)
+!= --Distinto
+!== --Estrictamente distinto
+// OPERADORES MATEMÁTICOS: 
++ Suma
+- Resta
+* Multiplicación
+/ División
+% Módulo (divide 2 números y como resultado, me devuelve el resto)
+
+Iteraciones == Repetir
+
+for (i=0; condición(devuelve un true); actualización){
+
+}
+
+MOSTRAR LOS DÍAS DE LA SEMANA
+for (let i=1; i<=7; i++){
+  switch (i){
+    case 1: console.log("El 1 es lunes");
+    break;
+    case 2: console.log("El 2 es martes");
+    break;
+    case 3: console.log("El 3 es miércoles");
+    break;
+    case 4: console.log("El 4 es jueves");
+    break;
+    case 5: console.log("El 5 es viernes");
+    break;
+    case 6: console.log("El 6 es sábado");
+    break;
+    case 7: console.log("El 7 es domingo");
+    break;
+    default: console.log("Hubo un error");
+  }
+}
+case 1-es la variable, podría ser caso pepe, y ver si i cumple la función "pepe"
+
+Pedirle al usuario que ingrese un día de la semana e indicarle qué número es:
+
 
 //Operadores: < ; > ; = ; == ; ===; <= ; >=;
 //Operador NOT !
