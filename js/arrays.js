@@ -46,22 +46,17 @@ function Producto(nombre, precio, id) {
 */
 
 //Ejercicio en clase:
-function Producto(nombre, precio, id) {
-  this.nombre = nombre;
-  this.precio = precio;
-  this.id = id;
+function ProductoPizza(sabor, tamaño) {
+  this.sabor = sabor;
+  this.tamaño = tamaño;
 }
 
 const productos = [];
-/* let producto1 = new Producto("Remera", 200, 2); console.log(producto1.nombre); */ function crearProducto() {
-  let cantidadProducto = prompt("Cuantos productos a agregar");
-  for (let index = 0; index < cantidadProducto; index++) {
-    let nombre = prompt("ingrese nombre");
-    let precio = prompt("ingrese precio");
-    let id = prompt("ingrese id ");
-    let productoNuevo = new Producto(nombre, precio, id);
-    productos.push(productoNuevo);
-  }
+function crearProducto() {
+  let sabor = prompt("qué sabor querés");
+  let tamaño = prompt("qué tamaño querés");
+  let productoNuevo = new ProductoPizza(sabor, tamaño);
+  productos.push(productoNuevo);
 }
 crearProducto();
 console.log(productos);

@@ -13,7 +13,6 @@ body {
   background-image: url(../img/PizzayCerveza.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: none;
   background-attachment: fixed;
   height: 70vh;
   overflow: hidden;
