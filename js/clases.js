@@ -176,7 +176,6 @@ function restar(num1, num2) {
 restar(23, 4);
 
 console.log(result);
-*/
 
 //funciones anonimas
 const suma = function (num1, num2) {
@@ -246,3 +245,87 @@ console.log(persona3.nombre);
 console.log(persona3);
 
 persona1.hablar();
+*/
+// OBJETO MATH
+
+const PI = Math.PI;
+
+console.log(PI);
+console.log(Math);
+
+//Raiz cuadrada
+console.log(Math.sqrt(25));
+
+//Flor- no tiene en cuenta el decimal
+console.log(Math.floor(3.6));
+
+//Round-redondea
+console.log(Math.round(3.7));
+
+//toFixed- seleccionas los decimales que querés que se muestren
+console.log(PI.toFixed(4));
+
+//Random- muestra un número aleatorio entre 0 y 1
+console.log(Math.random() * 100);
+
+//Math random + math floor
+
+console.log(Math.floor(Math.random() * 100));
+
+//DOM- Document Object Model
+
+console.dir(document.body);
+
+const h2 = document.getElementsByTagName("h2"); //Toma todos los h2 del documento, lo tira tipo array
+[1];
+console.log(h2);
+
+//Se puede acceder a las clases también, como colección de las clases ya que se puede repetir
+const titulo = document.getElementsByClassName("titulo");
+console.log(titulo);
+
+//Se puede también acceder por id
+
+const titulo_dos = document.getElementById("titulo_dos");
+console.log(titulo_dos);
+
+console.log(titulo_dos.innerHTML);
+console.log(titulo_dos.innerText);
+
+// InnerHtml permite crear estrucutra variable y guardarla dentro del html
+
+const divContenedor = document.getElementById("contenedor");
+
+divContenedor.innerHTML = "<p>Esto es texto dinámico</p>";
+
+//La propiedad className te permite aplicarle class de tu css
+
+divContenedor.className = "green";
+
+// Create elements
+let parrafo = document.createElement("p");
+parrafo.innerHTML = "Texto de <strong>prueba</strong>";
+document.body.append(parrafo);
+
+// A partir de ahora los imput van x imput, NO POR PROMPT
+
+const inputNombre = document.getElementById("nombre");
+
+divContenedor.innerText = inputNombre.value;
+console.log(divContenedor);
+
+// EVENTOS
+//Opción 1
+const btnEnviar = document.querySelector(`#enviar`);
+btnEnviar.addEventListener("click", () => {
+  divContenedor.innerText = inputNombre.value;
+});
+
+//Opción 2
+btnEnviar.onclick = () => {
+  divContenedor.innerText = inputNombre.value;
+};
+
+inputNombre.onkeyup = () => {
+  divContenedor.innerText = inputNombre.value;
+};

@@ -12,30 +12,94 @@ for (let i = 1; i <= 100; i = i + 3) {
   alert(ingresarNumero + " + " + i + " = " + resultado);
 }
 */
+const saludar = () => {
+  let nombre = prompt("Ingrese su nombre");
+  let apellido = prompt("Ingrese su apellido");
+  while (!nombre || !apellido) {
+    nombre = prompt("Ingrese su nombre");
+    apellido = prompt("Ingrese su apellido");
+  }
+  return nombre + " " + apellido;
+};
 
-function ProductoPizza(saborPizza, tamañoPizza) {
-  this.saborPizza = saborPizza;
-  this.tamañoPizza = tamañoPizza;
+let nombreUsuario = saludar();
+alert("Hola " + nombreUsuario);
+
+class Pedido {
+  constructor(saborPizza, tamañoPizza, tamañoPapas, colorBirra) {
+    this.saborPizza = saborPizza;
+    this.tamañoPizza = tamañoPizza;
+    this.tamañoPapas = tamañoPapas;
+    this.colorBirra = colorBirra;
+  }
 }
-function ProductoPapas(tamañoPapas) {
-  this.tamañoPapas = tamañoPapas;
-}
-function ProductoBirra(colorBirra) {
-  this.colorBirra = colorBirra;
-}
-const Pedido = [];
-function crearPedido() {
-  let saborPizza = prompt("qué sabor de Pizza querés");
-  let tamañoPizza = prompt("qué tamaño de Pizza querés");
-  let productoNuevo1 = new ProductoPizza(saborPizza, tamañoPizza);
-  Pedido.push(productoNuevo1);
-  let tamañoPapas = prompt("qué tamaño de Papas querés");
-  let productoNuevo2 = new ProductoPapas(tamañoPapas);
-  Pedido.push(productoNuevo2);
-  let colorBirra = prompt("Qué color de Birra querés");
-  let productoNuevo3 = new ProductoBirra(colorBirra);
-  Pedido.push(productoNuevo3);
-}
-crearPedido();
-console.log(Pedido);
-alert(Pedido);
+const Carrito = [];
+
+const crearPedido = () => {
+  let saborPizza = prompt(
+    "Qué sabor de Pizza querés:\n 1) Muzarella\n 2) Fugazeta\n 3) Roquefort"
+  );
+  while (
+    saborPizza !== "Muzarella" &&
+    saborPizza !== "Fugazeta" &&
+    saborPizza !== "Roquefort"
+  ) {
+    saborPizza = prompt(
+      "Qué sabor de Pizza querés:\n 1) Muzzarella\n 2) Fugazeta\n 3) Roquefort"
+    );
+  }
+  let tamañoPizza = prompt(
+    "Qué tamaño de Pizza querés:\n 1) Grande\n 2) Mediana\n 3) Chica"
+  );
+  while (
+    tamañoPizza !== "Grande" &&
+    tamañoPizza !== "Mediana" &&
+    tamañoPizza !== "Chica"
+  ) {
+    tamañoPizza = prompt(
+      "Qué tamaño de Pizza querés:\n 1) Grande\n 2) Mediana\n 3) Chica"
+    );
+  }
+  let tamañoPapas = prompt(
+    "Qué tamaño de Papas querés:\n 1) Grandes\n 2) Medianas\n 3) Chicas"
+  );
+  while (
+    tamañoPapas !== "Grandes" &&
+    tamañoPapas !== "Medianas" &&
+    tamañoPapas !== "Chicas"
+  ) {
+    tamañoPapas = prompt(
+      "Qué tamaño de Papas querés:\n 1) Grandes\n 2) Medianas\n 3) Chicas"
+    );
+  }
+  let colorBirra = prompt(
+    "Qué color de birra querés:\n 1) Rubia\n 2) Negra\n 3) Roja"
+  );
+  while (
+    colorBirra !== "Rubia" &&
+    colorBirra !== "Negra" &&
+    colorBirra !== "Roja"
+  ) {
+    colorBirra = prompt(
+      "Qué color de birra querés:\n 1) Rubia\n 2) Negra\n 3) Roja"
+    );
+  }
+  let pedidoNuevo = new Pedido(
+    saborPizza,
+    tamañoPizza,
+    tamañoPapas,
+    colorBirra
+  );
+  Carrito.push(pedidoNuevo);
+  let seguir = confirm("Desea realizar otro pedido?");
+  if (seguir == true) {
+    pedidoNuevo = crearPedido();
+  }
+};
+
+let pedidoNuevo = crearPedido();
+console.log(Carrito);
+
+//Método Find para saber si pidieron Pizza de Roquefort
+const hayRoquefort = Carrito.find((el) => el.saborPizza === "Roquefort");
+console.log(hayRoquefort);
