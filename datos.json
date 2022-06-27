@@ -1,0 +1,359 @@
+[
+  {
+    "nombre": "Pizza de Muzzarella",
+    "tamaño": "Grande",
+    "precio": 900,
+    "id": 1,
+    "img": "/img/PizzaMuzarellaMenu.png",
+    "cantidad": 1
+  },
+  {
+    "nombre": "Pizza de Fugazeta",
+    "tamaño": "Individual",
+    "precio": 850,
+    "id": 2,
+    "img": "/img/PizzaFugazetaMenu.png",
+    "cantidad": 1
+  },
+  {
+    "nombre": "Pizza de Roquefort",
+    "tamaño": "Individual",
+    "precio": 850,
+    "id": 3,
+    "img": "/img/PizzaRoquefortMenu.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Pizza de Jamon y Morrones",
+    "tamaño": "Individual",
+    "precio": 850,
+    "id": 4,
+    "img": "/img/PizzaJamonyMorronesMenu.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Pizza Calabresa",
+    "tamaño": "Individual",
+    "precio": 850,
+    "id": 5,
+    "img": "/img/PizzaCalabresaMenu.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Pizza Espinaca y Salsa Blanca",
+    "tamaño": "Individual",
+    "precio": 850,
+    "id": 6,
+    "img": "/img/PizzaEspinacaMenu.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Pizza Jamón y Huevo",
+    "tamaño": "Individual",
+    "precio": 850,
+    "id": 7,
+    "img": "/img/PizzaJamonyHuevoMenu.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Pizza Margarita",
+    "tamaño": "Individual",
+    "precio": 850,
+    "id": 8,
+    "img": "/img/PizzaMargaritaMenu.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Pizza Napolitana",
+    "tamaño": "Individual",
+    "precio": 850,
+    "id": 9,
+    "img": "/img/PizzaNapolitanaMenu.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Pizza de Palmitos y Salsa Golf",
+    "tamaño": "Individual",
+    "precio": 850,
+    "id": 10,
+    "img": "/img/PizzaPalmitosMenu.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Pizza Vegetariana",
+    "tamaño": "Individual",
+    "precio": 850,
+    "id": 11,
+    "img": "/img/PizzaVegetarianaMenu.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Papas Fritas",
+    "tamaño": "Grande",
+    "precio": 600,
+    "id": 12,
+    "img": "/img/PapasMenu.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Papas con Cheddar",
+    "tamaño": "Grande",
+    "precio": 650,
+    "id": 13,
+    "img": "/img/PapasCheddarMenu.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Cerveza American Ipa",
+    "tamaño": "Pinta",
+    "precio": 400,
+    "id": 14,
+    "img": "./img/CervezaAmericanIpa.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Cerveza Belgian Pale Ale",
+    "tamaño": "Pinta",
+    "precio": 400,
+    "id": 15,
+    "img": "/img/CervezaBelgianPaleAle.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Cerveza de Trigo",
+    "tamaño": "Pinta",
+    "precio": 400,
+    "id": 16,
+    "img": "/img/CervezaDeTrigo.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Cerveza English Ipa",
+    "tamaño": "Pinta",
+    "precio": 400,
+    "id": 17,
+    "img": "/img/CervezaEnglishIpa.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Cerveza English Porter",
+    "tamaño": "Pinta",
+    "precio": 400,
+    "id": 18,
+    "img": "/img/CervezaEnglishPorter.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Cerveza Irish Red Ale",
+    "tamaño": "Pinta",
+    "precio": 400,
+    "id": 19,
+    "img": "/img/CervezaIrishRedAle.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Cerveza PaleAle",
+    "tamaño": "Pinta",
+    "precio": 400,
+    "id": 20,
+    "img": "/img/CervezaPaleAle.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Cerveza Pale Lager",
+    "tamaño": "Pinta",
+    "precio": 400,
+    "id": 21,
+    "img": "/img/CervezaPaleLager.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Fernet con Coca",
+    "tamaño": "Vaso",
+    "precio": 400,
+    "id": 22,
+    "img": "/img/FernetConCoca.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Gancia con Sprite",
+    "tamaño": "Vaso",
+    "precio": 400,
+    "id": 23,
+    "img": "./img/Gancia.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Limonada con Menta y Jengibre",
+    "tamaño": "Vaso",
+    "precio": 350,
+    "id": 24,
+    "img": "/img/LimonadaConMentayJengibre.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Daikiri de Durazno",
+    "tamaño": "Vaso",
+    "precio": 400,
+    "id": 25,
+    "img": "/img/DaikiriDeDurazno.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Daikiri de Frutilla",
+    "tamaño": "Vaso",
+    "precio": 400,
+    "id": 26,
+    "img": "/img/DaikiriDeFrutilla.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Agua Mineral",
+    "tamaño": "Botellita",
+    "precio": 250,
+    "id": 27,
+    "img": "/img/BotellaAgua.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Coca Cola",
+    "tamaño": "Botellita",
+    "precio": 250,
+    "id": 28,
+    "img": "/img/BotellaCoca.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Coca Cola Light",
+    "tamaño": "Botellita",
+    "precio": 250,
+    "id": 29,
+    "img": "/img/BotellaCocaLight.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Paso de los Toros",
+    "tamaño": "Botellita",
+    "precio": 250,
+    "id": 30,
+    "img": "/img/BotellaPasoDeLosToros.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Sprite",
+    "tamaño": "Botellita",
+    "precio": 250,
+    "id": 31,
+    "img": "/img/BotellaSprite.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Sprite Zero",
+    "tamaño": "Botellita",
+    "precio": 250,
+    "id": 32,
+    "img": "/img/BotellaSpriteZero.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Cheesecake",
+    "tamaño": "Porción",
+    "precio": 500,
+    "id": 33,
+    "img": "./img/Cheesecake.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Chocotorta",
+    "tamaño": "Porción",
+    "precio": 500,
+    "id": 34,
+    "img": "/img/Chocotorta.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Torta de Oreo",
+    "tamaño": "Porción",
+    "precio": 500,
+    "id": 35,
+    "img": "/img/TortaDeOreo.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Selva Negra",
+    "tamaño": "Porción",
+    "precio": 500,
+    "id": 36,
+    "img": "/img/SelvaNegra.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Helado",
+    "tamaño": "3 Bochas",
+    "precio": 500,
+    "id": 37,
+    "img": "/img/Helado.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Flan Con Dulce de Leche",
+    "tamaño": "Porción",
+    "precio": 500,
+    "id": 38,
+    "img": "/img/flanConDulceDeLeche.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Flan Con Dulce de Leche y Crema",
+    "tamaño": "Porción",
+    "precio": 500,
+    "id": 39,
+    "img": "/img/flanConDulceDeLecheyCrema.png",
+    "cantidad": 1
+  },
+
+  {
+    "nombre": "Torta de Frutilla",
+    "tamaño": "Porción",
+    "precio": 500,
+    "id": 40,
+    "img": "/img/tortaDeFrutilla.png",
+    "cantidad": 1
+  }
+]

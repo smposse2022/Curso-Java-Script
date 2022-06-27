@@ -4,9 +4,15 @@ body {
 /*Nav */
 .navbar-light {
   box-shadow: 0 0 4px 0 #0e0d0d;
+  position: sticky;
 }
 .nav-item {
   margin: 0 2rem 0 2rem;
+  color: #948b8b;
+}
+.nav-item a:hover {
+  color: #d9042b;
+  transition: all 0.5s;
 }
 /*Main */
 .hero {
@@ -14,7 +20,8 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 70vh;
+}
+.Buzz_image {
   overflow: hidden;
 }
 .hero__content {
@@ -36,4 +43,18 @@ body {
 }
 .green {
   color: green;
+}
+/*Footer*/
+.footer {
+  font-size: 15px;
+  background-color: 948b8b;
+  color: black;
+  font-weight: bold;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    display: none;
+  }
 }
